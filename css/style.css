@@ -28,6 +28,9 @@ h6 {
   box-sizing: border-box;
   font-family: "inter", sans-serif;
 }
+.body {
+  background-color: #16120e;
+}
 
 .header {
   margin: 0;
@@ -403,8 +406,77 @@ h6 {
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-size: 18px;
+  margin-bottom: 140px;
 }
 
 .view-all:hover {
+  background-color: #555;
+}
+
+.machine-section {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.machine-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 530px;
+  background-color: #27221d;
+}
+
+.machine-image img {
+  margin: 85px 160px 86px 169px;
+  max-width: 100%;
+  width: 226px;
+  height: 359px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: #27221d;
+}
+
+.machine-text {
+  flex-direction: column;
+  justify-content: space-between;
+
+  text-align: left;
+  max-width: 600px;
+}
+.machine-title-item {
+  margin-right: 300px;
+}
+.machine-title {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 36px;
+}
+
+.machine-title-text {
+  margin: 0;
+  font-family: "Urbanist" serif;
+  color: #ece2e2;
+  font-weight: 200;
+  font-size: 16px;
+  margin-bottom: 36px;
+}
+
+.machine-button {
+  width: 215px;
+  height: 62px;
+  font-family: "Inter" serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #c99e71;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.machine-button:hover {
   background-color: #555;
 }
