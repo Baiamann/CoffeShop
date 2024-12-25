@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: #1c1814;
+  background-color: #14110e;
   margin: 0;
   padding: 0;
   font-family: "inters", sans-serif;
@@ -22,14 +22,10 @@ h6 {
   font-family: "inter", sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+.body {
+  background-color: #14110e;
   box-sizing: border-box;
   font-family: "inter", sans-serif;
-}
-.body {
-  background-color: #16120e;
 }
 
 .header {
@@ -201,6 +197,8 @@ h6 {
   max-width: 1170px;
   display: flex;
   gap: 20px;
+
+  row-gap: 32px;
   justify-content: center;
 }
 
@@ -211,6 +209,7 @@ h6 {
   overflow: hidden;
   padding: 2px;
   gap: 12px;
+  padding-bottom: 33px;
 }
 
 .best-title {
@@ -240,13 +239,13 @@ h6 {
   border-radius: 5px;
 }
 
-.grid-container {
+.Create-container {
   padding-bottom: 140px;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   column-gap: 32px;
-  row-gap: 32px;
+
   justify-content: center;
   display: flex;
   text-align: center;
@@ -269,7 +268,7 @@ h6 {
   border-radius: 10px;
   max-width: 300px;
   max-height: 300px;
-  row-gap: 32px;
+  padding-bottom: 33px;
 }
 
 .best-imge {
@@ -279,34 +278,37 @@ h6 {
 .small-imeges {
   margin: 0 auto;
   padding: 20px;
-  background-color: #14110e;
-  border-radius: 10px;
+  background-color: #25201b;
 
-  align-items: center;
   text-align: left;
-  display: inline-block;
-  justify-self: center;
+  padding-top: 140px;
+  margin-bottom: 30px;
+}
+.Create-span-item {
+  margin-right: 5px;
 }
 
-.grid-span {
+.Create-span {
   position: static;
   margin-top: 120px;
-  color: yellow;
+  color: #c99e71;
+  font-weight: 300;
   font-size: 12px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
-.text {
+.Create-text {
   font-family: "Righteous" serif;
-  font-size: 48px;
 
+  font-size: 48px;
   display: flex;
   font-weight: bold;
   color: #fff;
 }
-.p {
+.Create-text-item {
   font-family: "Urbanist" serif;
-  color: #ffffff;
+  color: #ada4a4;
+  font-weight: 200;
   font-size: 16px;
   text-align: left;
 }
@@ -418,6 +420,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 398px;
 }
 
 .machine-container {
@@ -425,7 +428,8 @@ h6 {
   align-items: center;
   gap: 30px;
   height: 530px;
-  background-color: #27221d;
+  background-color: #221d17;
+  padding-bottom: 90px;
 }
 
 .machine-image img {
@@ -434,7 +438,7 @@ h6 {
   width: 226px;
   height: 359px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
   color: #27221d;
 }
 
@@ -445,8 +449,11 @@ h6 {
   text-align: left;
   max-width: 600px;
 }
+.machine-title {
+  margin-right: 112px;
+}
 .machine-title-item {
-  margin-right: 300px;
+  margin-right: 0;
 }
 .machine-title {
   font-size: 48px;
@@ -456,11 +463,12 @@ h6 {
 
 .machine-title-text {
   margin: 0;
-  font-family: "Urbanist" serif;
+  font-family: "Urbanist", sans-serif;
   color: #ece2e2;
   font-weight: 200;
   font-size: 16px;
   margin-bottom: 36px;
+  margin-right: 89px;
 }
 
 .machine-button {
@@ -479,4 +487,78 @@ h6 {
 
 .machine-button:hover {
   background-color: #555;
+}
+
+.menu-container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.menu {
+  margin: 0 65px;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.menu-text {
+  font-size: 18px;
+  color: #c99e71;
+  padding-bottom: 12px;
+}
+
+.manu-text-title {
+  margin: 0;
+  font-size: 48px;
+  font-family: "Righteous", sans-serif;
+  color: #ffffff;
+  display: flex;
+  margin-bottom: 56px;
+}
+
+.menu-title {
+  padding-top: 56px;
+  display: flex;
+  text-align: center;
+  gap: 40px;
+}
+
+.menu-item {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  width: 565px;
+  height: 120px;
+
+  border: 1px solid gray;
+  margin-bottom: 36px;
+}
+
+.menu-img {
+  margin: 24px 21px 24px 24px;
+  width: 72px;
+  height: 72px;
+
+  margin-bottom: 10px;
+}
+
+.menu-title-item {
+  font-family: "Righteous", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  margin: 45px 117px 45px 21px;
+  font-size: px;
+
+  color: #cccccc;
+}
+
+.menu-title-span {
+  font-size: 1.2rem;
+  color: #c99e71;
 }
