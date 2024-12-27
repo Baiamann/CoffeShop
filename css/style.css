@@ -119,7 +119,7 @@ h6 {
 
 .banner-section {
   height: 100vh;
-  background-image: url("/images/Coffee-video.svg");
+  background-image: url("../images/Coffee-video.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -714,9 +714,6 @@ h1 {
   background-color: #aaa;
 }
 
-.left {
-  transform: rotate(180deg);
-}
 .booking {
   padding: 40px 0;
   color: #fff;
